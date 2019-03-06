@@ -1,0 +1,14 @@
+.outer {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+p {
+    color: royalblue;
+}
+body { 
+   text-align: center;
+   color:blue; 
+   font-size: 20px;
+}
