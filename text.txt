@@ -1,0 +1,5 @@
+p> <input id="checkbox1" type="checkbox"> A lot of pickles (for the next lesson about CSS)</p>
+     <p> <input id="checkbox2" type="checkbox"> 10 apples (for more CSS manipulations) </p>
+     <p> <input id="checkbox3" type="checkbox"> 20 oranges (because they are awaysome)</p>
+     <p> <input id="checkbox4" type="checkbox"> 13 plates (hmm ... they always disappear) </p>
+Сделать таблицей

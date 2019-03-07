@@ -1,0 +1,11 @@
+body{
+  background-color: gray;
+}
+table{
+  align-items: center;
+  table-layout:fixed;
+}
+tr{
+  align-content: center;
+  background-color: red;
+}
