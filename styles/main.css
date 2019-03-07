@@ -1,0 +1,8 @@
+/*.stroke {
+ color:#202020;
+ text-shadow: 1px 1px 0px #999, -1px -1px 0px #999;
+}*/
+p {
+    font-style: Courier New, monospace;
+    font-size: 30px;
+}
