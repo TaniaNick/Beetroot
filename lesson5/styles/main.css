@@ -1,10 +1,29 @@
-* {transition: all .1s ease-in;
-  background-color: gray;
+* {
+  margin: 0;
+  padding: 0;
+  transition: all .1s ease-in;
+  }
+header {
+  text-align: center;
+  background-color: #4a4f56;
 }
-table{
+body{
+  font-family: “Tebuchet MC”, Tebuchet, Arial, sans-serif;
+  background-color: #3b3f45;
+}
+.shopping_list{
+  font-family: “Tebuchet MC”, Tebuchet, Arial, sans-serif;
   margin: auto;
   table-layout:fixed;
 }
 tr{
-  background-color: red;
+  background-color: #88839e;
+}
+.end {
+	font-size: 14px;
+	color: #C5BDC3;
+}
+.begin {
+	font-size: 20px;
+	color: #C5BDC3;
 }
