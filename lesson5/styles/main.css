@@ -28,6 +28,21 @@ footer{
   text-align: center;
   font-size: 20px;
 	color: #C5BDC3;
+	padding: 15px 0;
+
+}
+.shopping_list,
+footer {
+	margin: 0 auto;
+	width: 50%;
+}
+header,
+footer {
+	color: #EB7E7F;
+	background-color: #4A4F56;
+	text-align: center;
+	padding: 50px 0 20px;
+	font-size: 21px;
 }
 .shopping_list tr{
 	background-color: #88839E;
@@ -46,4 +61,8 @@ footer{
 	border-top: 3px solid #fff;
 	border-bottom: 3px solid #fff;
 	background-color: #625E77;
+}
+.shopping_list input[type="checkbox"]:checked {
+	color: #A49EB2;
+	text-decoration: line-through;
 }
