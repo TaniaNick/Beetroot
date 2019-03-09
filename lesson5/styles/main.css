@@ -16,9 +16,6 @@ body{
   margin: auto;
   table-layout:fixed;
 }
-tr{
-  background-color: #88839e;
-}
 .end {
 	font-size: 14px;
 	color: #C5BDC3;
@@ -26,4 +23,27 @@ tr{
 .begin {
 	font-size: 20px;
 	color: #C5BDC3;
+}
+footer{
+  text-align: center;
+  font-size: 20px;
+	color: #C5BDC3;
+}
+.shopping_list tr{
+	background-color: #88839E;
+}
+.shopping_list tr:nth-child(even){
+	background-color: #7A7593;
+}
+.shopping_list td {
+	display: block;
+	padding: 10px;
+	cursor: pointer;
+	color: #FFF;
+	font-size: 20px;
+}
+.shopping_list td:hover {
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	background-color: #625E77;
 }
