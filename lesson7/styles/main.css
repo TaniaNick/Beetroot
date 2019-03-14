@@ -1,0 +1,99 @@
+html{
+    height: 100%;
+    font-size: 16px;
+}
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('ProximaNova-Regular.eot');
+  src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('ProximaNova-Regular.woff') format('woff'),
+  url('ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+body{
+   font: 'Proxima Nova Regular', sans-serif;
+    }
+.Main_Background {
+  background-color: rgb(74, 80, 84);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1973px;
+  height: 1480px;
+  z-index: 1;
+}
+.Document_Background {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 58px 0px rgba(0, 0, 0, 0.22);
+  position: absolute;
+  left: 115px;
+  top: 245px;
+  width: 1743px;
+  height: 1966px;
+  z-index: 2;
+}
+.Input_Background {
+  background-color: rgb(30, 30, 30);
+  box-shadow: -5.657px -5.657px 97px 0px rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 532px;
+  top: 77px;
+  width: 1441px;
+  height: 308px;
+  z-index: 21;
+}
+.Control_Bar_Background {
+  background-color: rgb(236, 191, 63);
+  box-shadow: -5.657px -5.657px 97px 0px rgba(0, 0, 0, 0.16);
+  position: absolute;
+  left: 637px;
+  top: 384px;
+  width: 1337px;
+  height: 126px;
+  z-index: 6;
+}
+.Input_Line {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.102;
+  position: absolute;
+  left: 637px;
+  top: 297px;
+  width: 1337px;
+  height: 6px;
+  z-index: 23;
+}
+.Icons{
+  margin: 35px;
+}
+.Document_Line {
+  background-color: rgb(232, 235, 236);
+  position: absolute;
+  left: 225px;
+  top: 245px;
+  width: 4px;
+  height: 1681px;
+  z-index: 3;
+}
+.Like_Tears_In_Ra {
+  font-size: 96px;
+  font-family: "PlayfairDisplay";
+  color: rgb(254, 254, 254);
+  line-height: 1.959;
+  position: absolute;
+  left: 105px;
+  z-index: 24;
+}
+.TITLE {
+  font-size: 30px;
+  font-family: "ProximaNova";
+  color: rgb(118, 118, 118);
+  text-transform: uppercase;
+  line-height: 7.269;
+  position: absolute;
+  left: 105px;
+  z-index: 26;
+}
+
+
+
