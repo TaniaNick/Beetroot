@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form class="new-form" action="form.php" method="GET">
+        <fieldset class="account-info">
+           <div class="new-form__input"> <label for="name">
+                Name</label>
+                <input type="text" name="name" placeholder="Full Name" required>
+            </div>
+            <div class="new-form__input"> <label for="email">
+                Email adress </label>
+                <input type="text" name="email" placeholder="Email adress" required>
+           </div>
+            <div class="new-form__input"> <label for="number">
+                Number of Passes</label>
+                <select name="number" required>
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div class="new-form__input"> <label>
+                Comments </label>
+                <textarea name="comments"></textarea>
+           </div>
+       
+                <div class="new-form__input"><input class="btn" type="submit" name="submit" value="Purchase"></div> 
+        </fieldset>   
+    </form>
+</body>
+</html>
