@@ -1,12 +1,17 @@
-.container .column,
-.container .columns {
-  background: #EEE;
-  text-align: center;
-  border-radius: 4px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  height: 30px;
-  line-height: 30px;
-  margin-bottom: .75rem;
-  font-weight: 600;
-  letter-spacing: .1rem; }
+.page{
+    height: 100%;
+    width: 100%;
+}
+.page__back{
+    height: 600px;
+    width: 800px;
+    background-image: url(../layer5.png);
+    background-size: 100%;
+    background-position: center;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    }
+.page_card{
+    background: white;
+}

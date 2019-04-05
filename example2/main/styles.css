@@ -1,0 +1,30 @@
+.container{
+    height: 500px;
+    width: 70%;
+    display: flex;
+   /* flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center; */
+   margin: auto;
+}
+.item{
+    background: blue;
+    width: 33.333%;
+    height: 100px;
+    flex-basis: 200px;
+    order: 1;
+}
+.container div:first-child{
+    background: #2ecc71;
+    /* flex: 0 4 300;
+    flex-shrink: 4; */
+    order: 4;
+   
+}
+.container div:last-child{
+    background:red;
+    /* flex: 0 2 300;
+    flex-shrink: 1; */
+    order: 2;
+}

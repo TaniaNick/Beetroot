@@ -1,17 +1,60 @@
-.page{
-    height: 100%;
-    width: 100%;
+*{
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    margin: 0 1.5% 24px 1.5%;
 }
-.page__back{
-    height: 600px;
+.container{
+max-width: 800px;
+margin: 20px auto;
+}
+.block,
+ footer{
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  padding: 24px 15px;
+  text-align: center;
+}
+.group{
     width: 800px;
-    background-image: url(../layer5.png);
-    background-size: 100%;
-    background-position: center;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    }
-.page_card{
-    background: white;
+    margin: 20px auto;
+    background: gray;
+    border-radius: 6px;
 }
+.block-left{
+ background: yellow;
+  border-radius: 6px;
+  color: #fff;
+  padding: 24px 15px;
+  text-align: center;
+  float: left;
+  }
+.block-right{
+    background: yellow;
+    border-radius: 6px;
+    color: #fff;
+    padding: 24px 15px;
+    text-align: center;
+    float: right;
+}
+.group:before,
+.group:after {
+    content: "";
+    display: table;  
+}
+.group:after {
+    clear: both;
+}
+.col{
+    background: #2db34a;
+    border-radius: 6px;
+    color: #fff;
+    padding: 24px 15px;
+    text-align: center;
+    float: left;
+    width: 25%;
+  }
+  footer {
+    clear: both;
+    margin-bottom: 0;
+  }

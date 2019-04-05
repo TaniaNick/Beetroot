@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'font9f3e5f399c91e65d1f10072955705898';
+        
+        src:    url('https://nomail.com.ua/files/eot/9f3e5f399c91e65d1f10072955705898.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/9f3e5f399c91e65d1f10072955705898.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/9f3e5f399c91e65d1f10072955705898.woff2') format('woff2');
+    }
+    
+@font-face { 
+    font-family: 'Miso';  src: local('Miso'), 
+        url('https://nomail.com.ua/files/woff/9f3e5f399c91e65d1f10072955705898.woff') format('woff'); 
+    }
+
+.container{
+    width: 75%;
+    height: 600px;
+    background: #fdde7e;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Miso", sans-serif;
+}
+.item{
+background: #ffffff;
+width: 30%;
+height: 400px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+text-align: center;
+}
+.item__price{
+font-size: 70px;
+color: rgb(2, 153, 91);
+font-weight: bold;
+}
+.item__title{
+font-size: 56px;
+color:rgb(51, 51, 51);
+}
+.item__text{
+    font-size: 20px;
+    color:rgb(51, 51, 51);
+}
+
+.item-center{
+    background: #ffffff;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    }
