@@ -1,14 +1,30 @@
-.outer {
-    display: flex;
-   justify-content: center;
-   align-items: center;
+@font-face {
+    font-family: 'font9f3e5f399c91e65d1f10072955705898';
+        
+        src:    url('https://nomail.com.ua/files/eot/9f3e5f399c91e65d1f10072955705898.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/9f3e5f399c91e65d1f10072955705898.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/9f3e5f399c91e65d1f10072955705898.woff2') format('woff2');
+    }
     
+@font-face { 
+    font-family: 'Miso';  src: local('Miso'), 
+        url('https://nomail.com.ua/files/woff/9f3e5f399c91e65d1f10072955705898.woff') format('woff'); 
+    }
+
+*{
+    font-family: "Miso", sans-serif;
 }
-p {
-    color: royalblue;
+.profile-fact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-body { 
-   text-align: center;
-   color:blue; 
-   font-size: 20px;
+.profile-title{
+    font-size: 50px;
+    color: blueviolet;
+}
+.profile-text{
+    font-size: 30px;
+    color: red;
 }

@@ -13,5 +13,10 @@
     top: 0; left: 0; bottom: 0; right: 0;
     }
 .page_card{
-    background: white;
+    background:#111a28;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+
 }
