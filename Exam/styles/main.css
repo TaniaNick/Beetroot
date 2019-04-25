@@ -95,12 +95,20 @@ color: #ffffff;
     display:flex;
     height: 700px;
     background-image:url(../spain1.jpg);
+    
 }
 .descript--box{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 540px;
     height: 371px;
-    /* background-color: #333333; */
-    background: rgba (57, 57, 57, 0.7); 
+    background-color: #333333;
+    background: rgba (0, 0, 0, 0.7); 
+    margin: auto 20%;
 }
 
 .page__book{
