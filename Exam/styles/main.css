@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400');
 @import url('https://fonts.googleapis.com/css?family=Aleo');
 .page{
     width:100%;
@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 
-.page__header{
+.header{
     height:750px;
     background-image:url(../header.jpg);
     font-family: 'Josefin Sans', sans-serif; 
@@ -17,7 +17,7 @@
     align-items: center;
     
 }
-.page__header__search{
+.header__search{
     width:650px;
     height: 60px;
     background-color: #ffffff;
@@ -35,13 +35,13 @@
     align-items: center;
     
 }
-.header--title{
+.header__title{
 color: #ffffff;
 font-size: 48px;
 font-weight: bold;
 text-transform: uppercase;
 }
-.header--text{
+.header__text{
 font-size: 22px;  
 color: #ffffff;      
 }
@@ -115,11 +115,69 @@ color: #ffffff;
     height: 700px;
     background-image: url(../spain2.jpg);
 }
- .page__response{
+
+ .response{
      height: 700px;
      background-image: url(../response.jpg);
- } 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+ .response__title{
+        font-size: 36px;
+        font-family: 'Aleo', sans-serif;
+        font-style: normal;
+        color: #ffffff;
+}
+
+      
+ .response__descript{
+     display: flex;
+ }
+
+ .response__text{
+     width: 665px;
+     height: 284px;
+     background-color: #333333;
+     color: #ffffff;
+     font-family: 'Josefin Sans', sans-serif;
+     display: flex;
+     flex-direction: column;
+    }
+
+.response__text--title{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 50px auto 0 60px;
+}
+.response__text--input{
+    font-size: 16px;
+    font-weight: 300;
+    vertical-align: super;
+    line-height: 1.5;
+    margin: 50px 50px auto 60px;
+    
+}
  .page__footer{
     height: 270px;
     background-color: #333333;
  }
+
+ .__But_I_must_explain_to_you_how_all_this_mista {
+    font-size: 36px;
+    font-family: "FontAwesome";
+    color: rgb(84, 116, 253);
+    vertical-align: super;
+    line-height: 0.722;
+    text-align: left;
+    position: absolute;
+    left: 849.913px;
+    top: 3627.371px;
+    width: 551px;
+    height: 136px;
+    z-index: 22;
+  }
+  
