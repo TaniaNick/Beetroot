@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400');
-@import url('https://fonts.googleapis.com/css?family=Aleo');
+@import url('https://fonts.googleapis.com/css?family=Aleo:300,400');
 .page{
     width:100%;
     height:100%;
@@ -32,9 +32,11 @@
     color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
+    font-size: 16px;
+    font-family: "Aleo",serif;
 }
+ 
 .header__title{
 color: #ffffff;
 font-size: 48px;
@@ -46,7 +48,7 @@ font-size: 22px;
 color: #ffffff;      
 }
 
-.page__menu{
+.menu{
 height: 80px;
 background-color: #5474fd;
 display: flex;
@@ -55,65 +57,90 @@ align-items: center;
 color: #ffffff;
 
 }
-.menu--title{
+.menu__title{
     font-size: 24px;
         font-family: "Josefin Sans", sans-serif;
         color: rgb(255, 255, 255);
         text-transform: uppercase;
         text-align: left;     
 }
-.menu--text{
+.menu__text{
         font-size: 14px;
+        font-weight: 300;
         font-family: "Aleo",serif;
         color: #ffffff;
         text-transform: uppercase;      
 }
+.menu__text :hover{
+    font-size: 20px;
+}
 
-.page__section{
+.section{
     height:680px;
     background-image:url(../section.jpg);
-     display: flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color:#ffffff;
 }
+.section__title{
+    font-size: 36px;
+    font-weight: 300;
+    font-family: "Aleo", serif;
+
+}
 .section-block__text{
-    margin: auto 0 auto 20% ;
+width: 550px;
 }
-.section-block__img{
-    margin: auto 20% auto 0;
-}
-.section--text{
+.section__text{
         font-size: 16px;
         font-family: 'Josefin Sans', sans-serif;
         color: #ffffff;     
 }
+.section-block__img{
+    width:550px;
+    display: flex;
+    flex-direction: column;
+    }
+.section-block__img--right{
+    display: flex;
+    justify-content: flex-end;
+}    
+
 .page__nav{
     height: 340px;
     background-image:url(../page_nav.jpg);
 }
-.page__dscript{
+.dscript{
     display:flex;
+    justify-content: flex-start;
+    align-items: center;
     height: 700px;
     background-image:url(../spain1.jpg);
     
 }
-.descript--box{
+.descript__box{
     font-family: 'Josefin Sans', sans-serif;
     color: #ffffff;
     display:flex;
+    font-weight: 300;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 540px;
     height: 371px;
     background-color: #333333;
-    background: rgba (0, 0, 0, 0.7); 
+    opacity: 0.7;
     margin: auto 20%;
 }
 
-.page__book{
+.book{
     height: 700px;
     background-image: url(../spain2.jpg);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 
  .response{
@@ -158,26 +185,39 @@ color: #ffffff;
     font-weight: 300;
     vertical-align: super;
     line-height: 1.5;
-    margin: 50px 50px auto 60px;
-    
+    margin: 50px 50px auto 60px;   
 }
- .page__footer{
+
+.fa-quote-left{
+    color: #5474fd;
+}
+.footer{
     height: 270px;
     background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
  }
-
- .__But_I_must_explain_to_you_how_all_this_mista {
-    font-size: 36px;
-    font-family: "FontAwesome";
-    color: rgb(84, 116, 253);
-    vertical-align: super;
-    line-height: 0.722;
-    text-align: left;
-    position: absolute;
-    left: 849.913px;
-    top: 3627.371px;
-    width: 551px;
-    height: 136px;
-    z-index: 22;
-  }
-  
+ .footer__title{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    margin-bottom: 0;
+   
+ }
+ .footer__text{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    margin-top: 0;
+ }
+ .footer__icons{
+       color: #ffffff;
+}
+ 
+ .footer__icons :hover{
+     color: #5474fd;
+ }
