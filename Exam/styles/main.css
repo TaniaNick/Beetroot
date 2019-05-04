@@ -17,6 +17,7 @@
     align-items: center;
     
 }
+
 .header__search{
     width:650px;
     height: 60px;
@@ -46,7 +47,7 @@ text-transform: uppercase;
 .header__text{
 font-size: 22px;  
 color: #ffffff;      
-}
+} 
 
 .menu{
 height: 80px;
