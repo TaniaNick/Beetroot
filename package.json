@@ -1,0 +1,31 @@
+{
+  "name": "beetroot",
+  "version": "1.0.1",
+  "description": "First project",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaniaNick/Beetroot.git"
+  },
+  "keywords": [
+    "beetroot",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Tetiana Nikitchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaniaNick/Beetroot/issues"
+  },
+  "homepage": "https://github.com/TaniaNick/Beetroot#readme",
+  "dependencies": {
+    "gulp": "^4.0.1"
+  }
+}
